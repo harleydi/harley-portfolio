@@ -10,7 +10,7 @@ class Contact extends Component {
                 <h1 className='cHead'>Contact Me</h1>
                 <div className='icons'>
                     <i class="fas fa-mobile icon"></i>
-                    <i class="fab fa-github icon"></i>
+                    <i class="fab fa-github icon"><a href='https://github.com/harleydi'></a></i>
                     <i class="fab fa-linkedin icon"></i>
                 </div>
             </div>

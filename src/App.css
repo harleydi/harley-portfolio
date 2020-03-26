@@ -133,14 +133,40 @@
   height: 100vh;
 }
 
+.portfolioHead {
+  font-size: 60px;
+}
+
 .boxes {
   display: flex;
 }
 
 .box {
-  border: 2px solid black;
+  /* border: 2px solid black; */
   height: 50vh;
   width: 50vw;
+  /* background: #95FFCB; */
+  /* display: flex; */
+}
+
+.boxPic {
+  height: 40vh;
+  width: 40vw;
+}
+
+.boxText {
+  display: flex;
+  flex-direction: column;
+}
+
+.textHead {
+  /* margin-left: 100px; */
+  /* font-size: xx-large; */
+  color: #95FFCB;
+}
+
+.textBody {
+  /* margin-left: 150px; */
 }
 
 .workTitle {
