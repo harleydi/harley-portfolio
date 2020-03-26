@@ -6,6 +6,11 @@
   /* color: #95FFCA; */
 }
 
+a {
+  text-decoration: none;
+  color: #1138B5;
+}
+
 /*  */
 /* NAVBAR */
 /*  */
@@ -150,7 +155,7 @@
 }
 
 .boxPic {
-  height: 40vh;
+  height: 30vh;
   width: 40vw;
 }
 
@@ -159,19 +164,32 @@
   flex-direction: column;
 }
 
-.textHead {
+.textHead a {
   /* margin-left: 100px; */
-  /* font-size: xx-large; */
+  font-size: 40px;
   color: #95FFCB;
+  text-decoration: none;
 }
+
 
 .textBody {
   /* margin-left: 150px; */
+  font-size: x-small;
 }
 
 .workTitle {
   color: white;
   text-decoration: none;
+}
+
+.pIcons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.pIcons:hover {
+  color: white;
 }
 
 
@@ -197,13 +215,23 @@
   border-radius: 10px;
   color: blue;
   font-weight: 700;
+  text-decoration: none;
 }
 
-.resumeBtn:hover {
+/* .resumeBtn:hover a {
   background: blue;
   color: #95FFCB;
-}
+} */
 
+/* .resumeBtn > a:hover {
+  background: blue;
+  color: #95FFCB;
+} */
+
+.resumeBtn a {
+  color: blue;
+  text-decoration: none;
+}
 
 /*  */
 /* CONTACT */

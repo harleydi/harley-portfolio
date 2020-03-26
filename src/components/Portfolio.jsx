@@ -13,16 +13,25 @@ class Portfolio extends Component {
                     <div className='box p2'>
                         <img className='boxPic' src='https://images.pexels.com/photos/251225/pexels-photo-251225.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500' />
                         <div className='boxText'>
-                            <h3 className='textHead'>MCTS</h3>
+                            <h3 className='textHead'><a href='http://mymcts.surge.sh/'>MCTS</a></h3>
                             <p className='textBody'>This is a website based of a place where children and teens can come to get help without having to be thrown into ACS or as we know "The System" because of a lack of guardianship ect., and get opportunities and have better outcomes as every child deserves to have.</p>
+                            <div className='pIcons'>
+                                <i class="fab fa-react"></i>
+                                <i class="fab fa-js"></i>
+                                <i class="fab fa-node-js"></i>
+                            </div>
                         </div>
                         
                     </div>
                     <div className='box'>
                         <img className='boxPic' src='https://images.pexels.com/photos/251225/pexels-photo-251225.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500' />
                         <div className='boxText'>
-                            <h3 className='textHead'>Expedia - Flying Four</h3>
-                            <p>We are building out a new feature for Expedia, which allows users to search for a bundled Flight, Hotel and Car vacation package with the option to search for an eco-friendly hotel. The search form will include a checkbox option to include only eco-friendly options. The hotel search results list will include a tree icon that indicates it is eco-friendly.</p>
+                            <h3 className='textHead'><a href='http://expedia-flying-four.herokuapp.com/'>Expedia - Flying Four</a></h3>
+                            <p className='textBody'>We are building out a new feature for Expedia, which allows users to search for a bundled Flight, Hotel and Car vacation package with the option to search for an eco-friendly hotel. The search form will include a checkbox option to include only eco-friendly options. The hotel search results list will include a tree icon that indicates it is eco-friendly.</p>
+                            <div className='pIcons'>
+                                <i class="fab fa-react"></i>
+                                <i class="fab fa-js"></i>
+                            </div>
                         </div>
                     </div>
                 </div>
