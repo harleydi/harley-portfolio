@@ -1,32 +1,220 @@
 .App {
   text-align: center;
+  font-family: 'Muli', sans-serif;
+  /* background: linear-gradient(203deg, rgba(25,25,147,1) 35%, rgba(24,246,183,1) 100%); */
+  background: #1138B5;
+  /* color: #95FFCA; */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/*  */
+/* NAVBAR */
+/*  */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar {
+  height: 10vh;
+  background: transparent;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  justify-content: space-between;
+}
+
+.topPart {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+
+.bottomPart {
+  height: 1vh;
+  background: #BED8D4;
+
+}
+
+.navText {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  margin-top: 10px;
+  position: sticky;
+  border-bottom: 2px #95FFCB solid;
+}
+
+
+
+
+
+
+
+
+/*  */
+/* MAIN */
+/*  */
+
+.cover {
+  /* background-image: url('https://images.pexels.com/photos/2014773/pexels-photo-2014773.jpeg?auto=ompress&cs=tinysrgb&dpr=2&h=750&w=1260'); */
+  /* background-size: cover; */
+  /* background: linear-gradient(203deg, rgba(25,25,147,1) 35%, rgba(24,246,183,1) 100%); */
+  background: #1138B5;
+  height: 100vh;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  opacity: .9;
+}
+
+.coverTitle {
+  align-items: center;
+  align-self: center;
+  color: #95FFCA;
+  font-size: 120px;
+  margin-bottom: 180px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.next {
+  font-size: xx-large;
+  color: white;
+  text-shadow: 2px 5px 5px darkslategray;
+}
+
+
+
+/*  */
+/* BRANDING */
+/*  */
+
+
+.branding {
+  height: 100vh;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.brandHeadText {
+  color: #1138B5;
+  display: flex;
+  font-weight: 700;
+  font-size: 140px;
+  margin-bottom: 0;
+}
+
+.brandPara {
+  width: 80vw;
+  margin-left: auto;
+}
+
+.brandIcons {
+  color: #1138B5;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.portfolioHead {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+
+
+
+
+
+
+
+/*  */
+/* PORTFOLIO */
+/*  */
+
+.portfolio {
+  height: 100vh;
 }
+
+.boxes {
+  display: flex;
+}
+
+.box {
+  border: 2px solid black;
+  height: 50vh;
+  width: 50vw;
+}
+
+.workTitle {
+  color: white;
+  text-decoration: none;
+}
+
+
+/*  */
+/* RESUME */
+/*  */
+
+.resume {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: white;
+}
+
+.resumeBtn {
+  width: 40vw;
+  text-align: center;
+  align-self: center;
+  height: 5vh;
+  border: 2px solid blue;
+  border-radius: 10px;
+  color: blue;
+  font-weight: 700;
+}
+
+.resumeBtn:hover {
+  background: blue;
+  color: #95FFCB;
+}
+
+
+/*  */
+/* CONTACT */
+/*  */
+
+.contact {
+  height: 40vh;
+  margin-bottom: none;
+}
+
+.cHead {
+  color: #95FFCB;
+  font-size: 80px;
+}
+
+.icons {
+  margin-top: 20px;
+  font-size: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.icon:hover {
+  color: #95FFCB;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 @keyframes App-logo-spin {
   from {
